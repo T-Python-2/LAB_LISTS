@@ -15,8 +15,9 @@ for n in range(1200,2000,125):
         continue
     else:
         oddList.append(n)
-print(oddList)  
+print(oddList) 
 
+# Q3 another solusion(List comperhension)
 oddList2 = [ n for n in range(1200,2000,125) if n % 2 != 0 ]
 print(oddList2)
 #Q4
