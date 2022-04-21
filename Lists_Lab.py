@@ -1,10 +1,7 @@
 #LISTS LAB
 
-# A function to sum all items in a list
-from typing import List
-
 #A function to sum all items in a list
-def sum_items(list:List):
+def sum_items(list:list):
     sum = 0
     for element in list:
         sum+=element
@@ -13,7 +10,7 @@ def sum_items(list:List):
 sum_items([1,2,3,4,5,6])
 
 #A function to get the largest number from a list
-def largest_number(list:List):
+def largest_number(list:list):
     list.sort()
     print("The largest number is {}".format(list[-1]))
 
