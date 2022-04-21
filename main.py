@@ -25,5 +25,5 @@ print(odd_list)
 #Q5
 scal_list = list()
 new_list = [1,2,3,4,5,6,7,8]
-scal_list = new_list[5:]
+scal_list = new_list[4:]
 print(scal_list)
