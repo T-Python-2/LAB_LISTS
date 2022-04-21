@@ -17,7 +17,7 @@ def largest_number(list:list):
 largest_number([5,0,9,2,3,7,6])
 
 #odd numbers list in the range 1200-2000 with steps of 125 using list comprehension
-odd_numbers_list = [number for number in range(1200,2000,125)]
+odd_numbers_list = [number for number in range(1200,2000,125) if number%2 == 1]
 print(odd_numbers_list)
 
 #using list slicing to get the list from the first element to the 5th element
